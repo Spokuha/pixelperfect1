@@ -8,6 +8,11 @@
     src: url(../fonts/OpenSansExtraBold.ttf); /* Путь к файлу со шрифтом */
 }
 
+@font-face {
+    font-family: Open Sans Regular; /* Имя шрифта */
+    src: url(../fonts/OpenSansRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
 body {
     margin: 0 8%;
 }
@@ -191,4 +196,26 @@ body {
     font-family: 'Open Sans ExtraBold';
 }
 
+.block2__info {
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.block2 p:nth-child(1) {
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+}
+
+.block2__learn-more {
+    font-family: 'Open Sans SemiBold';
+    border-bottom: 1px white solid;
+    font-size: 20px;
+    width: 112px;
+}
+
+.block2__learn-more:hover {
+    cursor: pointer;
+    color: #FF9C41;
+    border-bottom: 1px #FF9C41 solid;
+}
