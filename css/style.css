@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Open Sans SemiBold; /* Имя шрифта */
+    src: url(../fonts/OpenSansSemiBold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Open Sans ExtraBold; /* Имя шрифта */
+    src: url(../fonts/OpenSansExtraBold); /* Путь к файлу со шрифтом */
+}
+
+body {
+    margin: 0 8%;
+}
+
+.block1 {
+    background: url(/image/image 1.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    justify-content: space-between;
+    padding: 0 209px;
+}
+
+.block1__left-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block1__left-side input {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 16px;
+    font-family: 'Open Sans SemiBold';
+}
+
+.button-search {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    margin-right: 22px;
+    padding-top: 3px;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.block1__left-side p{
+    font-size: 19px;
+    font-family: 'Open Sans SemiBold';
+    margin: 12px 0;
+}
+
+.block1__right-side {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.block1__right-side button {
+    background: rgba(0,0,0,0);
+    border:none;
+    font-size: 16px;
+    font-family: 'Open Sans SemiBold';
+}
+
+.block1__right-side button:hover {
+    cursor: pointer;
+    border-bottom: 2px black solid;
+}
+
+.block1__right-side div {
+    margin-left: 73px;
+}
+
+.block1__right-side button:nth-child(2) {
+    margin-left: 39px;
+}
+
+.block1__right-side button:nth-child(3) {
+    margin-left: 40px;
+}
+
+.block1__right-side-navicon div {
+    width: 21px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+.block1__right-side-navicon {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    font-size: 72px;
+    font-family: 'Open Sans ExtraBold';
+}
+
+
+
