@@ -245,3 +245,39 @@ body {
 .block2__info div:nth-child(2) {
     margin-right: 145px;
 }
+
+.block3__title {
+    display: flex;
+    padding-top: 170px;
+}
+
+.block3__title p {
+    font-size: 18px;
+    font-family: 'Open Sans Regular';
+    line-height: 26px;
+}
+
+.block3__title h2 {
+    margin-left: 217px;
+    margin-right: 95px;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Open Sans ExtraBold';
+}
+
+.block3__main {
+    display: flex;
+    height: 851px;
+    width: 100%;
+    padding-top: 168px;
+}
+
+.block3 video {
+    width: 788px;
+    height: 683px;
+    margin-right: 129px;
+}
+
+.block3__description {
+    width: 649px;
+}
