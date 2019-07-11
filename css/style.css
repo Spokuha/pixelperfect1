@@ -147,3 +147,22 @@ footer button {
     font-size: 16px;
     font-family: 'Open Sans SemiBold';
 }
+
+.block1__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 160px;
+}
+
+footer img {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    margin: 0 13px;
+}
+
+footer img:hover {
+    filter: invert(76%) sepia(61%) saturate(2775%) hue-rotate(329deg) brightness(105%) contrast(103%);
+}
