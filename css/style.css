@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: Open Sans ExtraBold; /* Имя шрифта */
-    src: url(../fonts/OpenSansExtraBold); /* Путь к файлу со шрифтом */
+    src: url(../fonts/OpenSansExtraBold.ttf); /* Путь к файлу со шрифтом */
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 .block1 {
-    background: url(/image/image 1.png) no-repeat;
+    background: url(../../petrunkin_verstka/image/image_1.png) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -103,12 +103,47 @@ header {
 main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    margin-top: 87px;
 }
 
-main {
-    font-size: 72px;
+main h1 {
+
+    margin-left: 93px;
+    margin-bottom: 36px;
+    margin-top: 68px;
+
     font-family: 'Open Sans ExtraBold';
+    line-height: 85px;
+    font-size: 72px;
+
+}
+
+main p {
+    font-size: 16px;
+    font-family: 'Open Sans SemiBold';
+    margin-right: 192px;
+    line-height: 24px;
 }
 
 
+footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 102px;
+}
 
+footer button {
+    cursor: pointer;
+    background: #FF9C41;
+    border: none;
+    border-radius: 2em;
+    width: 230px;
+    height: 55px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans SemiBold';
+}
