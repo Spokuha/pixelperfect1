@@ -199,6 +199,7 @@ body {
     line-height: 42px;
     margin-bottom: 0;
     flex-basis: 100%;
+    height: 31%;
 }
 
 .block2__info {
@@ -220,7 +221,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     flex-basis: 100%;
-    margin-bottom: 42px;
+    margin-top: 0;
+    height: 50%;
 }
 
 .block2__learn-more:hover {
@@ -237,9 +239,9 @@ body {
 }
 
 .block2__info div:nth-child(1) {
-    margin-right: 143px;
+    margin-right: 142px;
 }
 
 .block2__info div:nth-child(2) {
-    margin-right: 150px;
+    margin-right: 145px;
 }
