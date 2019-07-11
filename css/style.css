@@ -22,7 +22,7 @@ body {
 
 }
 
-header {
+.block1 header {
     display: flex;
     flex-wrap: wrap;
     margin-top: 16px;
@@ -101,7 +101,7 @@ header {
     cursor: pointer;
 }
 
-main {
+.block1 main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +111,7 @@ main {
     margin-top: 87px;
 }
 
-main h1 {
+.block1 main h1 {
 
     margin-left: 93px;
     margin-bottom: 36px;
@@ -122,11 +122,11 @@ main h1 {
     font-size: 72px;
 }
 
-main span {
+.block1 main span {
     color: #FF9C41;
 }
 
-main p {
+.block1 main p {
     font-size: 16px;
     font-family: 'Open Sans SemiBold';
     margin-right: 192px;
@@ -134,13 +134,13 @@ main p {
 }
 
 
-footer {
+.block1 footer {
     display: flex;
     justify-content: flex-start;
     margin-top: 102px;
 }
 
-footer button {
+.block1 footer button {
     cursor: pointer;
     background: #FF9C41;
     border: none;
@@ -160,13 +160,35 @@ footer button {
     margin-right: 160px;
 }
 
-footer img {
+.block1 footer img {
     cursor: pointer;
     width: 17px;
     height: 17px;
     margin: 0 13px;
 }
 
-footer img:hover {
+.block1 footer img:hover {
     filter: invert(76%) sepia(61%) saturate(2775%) hue-rotate(329deg) brightness(105%) contrast(103%);
 }
+
+.block2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url(../image/image2.png) no-repeat;
+    padding-left: 216px;
+    padding-top: 84px;
+}
+
+.block2 h1 {
+    font-size: 70px;
+    font-family: 'Open Sans ExtraBold';
+
+}
+
+.block h2 {
+    font-size: 34px;
+    font-family: 'Open Sans ExtraBold';
+}
+
+
