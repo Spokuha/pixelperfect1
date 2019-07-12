@@ -379,9 +379,38 @@ body {
     font-weight: bold;
     top: 88%;
     background: white;
+    cursor: pointer;
 }
 
 
 .block4__page-line {
+    background: #333333;
+    width: 2px;
+    height: 158px;
+}
 
+.block5 {
+    display: flex;
+
+}
+
+.block5__description {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.block5__description h1 {
+    font-size: 45px;
+    font-family: 'Open Sans ExtraBold';
+}
+
+.block5__description h2 {
+    font-size: 24px;
+    font-family: 'Open Sans ExtraBold';
+}
+
+.block5__description p {
+    font-size: 18px;
+    font-family: 'Open Sans Regular';
+    color: #676767;
 }
