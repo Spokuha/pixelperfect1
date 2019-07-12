@@ -257,17 +257,40 @@ body {
     line-height: 26px;
 }
 
+.block3 h2 {
+    font-size: 24px;
+    font-family: 'Open Sans ExtraBold';
+}
+
 .block3__title h2 {
     margin-left: 217px;
     margin-right: 95px;
-    font-size: 24px;
+
     line-height: 35px;
-    font-family: 'Open Sans ExtraBold';
+}
+
+.block3__description p {
+    font-size: 16px;
+    font-family: 'Open Sans Regular';
+    line-height: 25px;
+}
+
+.block3__description p:nth-of-type(1) {
+    margin-bottom: 62px;
+}
+
+.block3__description p:nth-of-type(2) {
+    margin-bottom: 62px;
+}
+
+
+.block3__description h2:nth-child(1) {
+    margin-top: 0;
 }
 
 .block3__main {
     display: flex;
-    height: 851px;
+    height: 864px;
     width: 100%;
     padding-top: 168px;
 }
@@ -280,4 +303,85 @@ body {
 
 .block3__description {
     width: 649px;
+}
+
+
+.block4 {
+    display: flex;
+    height: 803px;
+    background: url(../image/image3@2x.png) no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+
+    /*for button*/
+    position: relative;
+    /*for button*/
+
+}
+
+.block4__left-side {
+    flex-basis: 46%;
+    padding-top: 190px;
+}
+
+.block4 h1 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 45px;
+    font-family: 'Open Sans ExtraBold';
+}
+
+.block4 h2 {
+    margin-bottom: 9px;
+    font-size: 24px;
+    font-family: 'Open Sans ExtraBold';
+}
+
+.block4 p {
+    font-size: 16px;
+    font-family: 'Open Sans SemiBold';
+    line-height: 24px;
+    margin-bottom: 87px;
+}
+
+.block4__left-side {
+    background: rgba(255,255,255,0.7);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-basis: 570px;
+    padding-top: 190px;
+    padding-left: 216px;
+}
+
+
+.block4__left-side button {
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    border: 2px #FF9C41 solid;
+    border-radius: 2em;
+    width: 230px;
+    height: 55px;
+    color: #FF9C41;
+    font-size: 16px;
+    font-family: 'Open Sans SemiBold';
+}
+
+.block4__button-next {
+    width: 60px;
+    border: none;
+    padding: 0;
+    height: 60px;
+    font-size: 46px;
+    position: absolute;
+    border-radius: 100px;
+    left: 47%;
+    font-weight: bold;
+    top: 88%;
+    background: white;
+}
+
+
+.block4__page-line {
+
 }
