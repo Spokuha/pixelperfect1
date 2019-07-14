@@ -113,6 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     background: url(../image/mobile//image2mob@2x.png) no-repeat;
+    background-size: cover;
     padding-top: 32px;
     padding: 0 16px;
     height: 721px;
@@ -516,7 +517,7 @@ body {
     margin-right: 0;
 }
 
-.block7 img:hover {
+.block7__icons img:hover {
     filter: invert(76%) sepia(61%) saturate(2775%) hue-rotate(329deg) brightness(105%) contrast(103%);
 }
 
