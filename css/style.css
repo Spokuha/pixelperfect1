@@ -181,6 +181,7 @@ body {
     display: flex;
     flex-direction: column;
     background: url(../image/image2.png) no-repeat;
+    background-size: cover;
     padding-left: 216px;
     padding-top: 84px;
     height: 721px;
@@ -463,6 +464,7 @@ body {
     display: flex;
     padding-top: 137px;
     background: url(../image/image4.png) no-repeat;
+    background-size: cover;
     height: 535px;
     flex-wrap: wrap;
     flex-direction: column;
@@ -537,7 +539,6 @@ body {
 }
 
 .block6__photo-gallary div:hover {
-    /* background: rgba(130,130,130,0.2) !important; */
     opacity: 0.3;
     cursor: pointer;
 }
