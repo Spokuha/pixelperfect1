@@ -354,21 +354,26 @@ body {
     background: #FF9C41;
 }
 
-.block5 footer {
+.block5 footer {  
     display: flex;
     background: url(../image/image4.png) no-repeat;
-    height: 535px;
+    height: 352px;
     flex-wrap: wrap;
+    padding: 0 16px;
     flex-direction: column;
 }
 
+.block5 footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .block5 footer h2 {
-    font-size: 45px;
+    font-size: 28px;
     font-family: 'Open Sans ExtraBold';
     color: white;
-    height: 65px;
-    margin: 0;
-    margin-bottom: 70px;
+    width: 100%
 }
 
 .block5 input {
@@ -377,8 +382,8 @@ body {
     font-family: 'Open Sans Regular';
     height: 42px;
     border: none;
-    width: 499px;
-    margin-right: 67px;
+    margin-bottom: 64px;
+    width: 100%;
     border-bottom: 2px white solid;
     background: rgba(0,0,0,0);
 }
@@ -406,9 +411,8 @@ body {
 }
 
 .block6 main h2{
-    font-size: 45px;
+    font-size: 28px;
     font-family: 'Open Sans ExtraBold';
-    margin-top: 13px;
 }
 
 .block6__photo-gallary h3 {
