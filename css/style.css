@@ -502,6 +502,70 @@ body {
         font-family: 'Open Sans SemiBold';
     }
 
+    .block6__mobile {
+        margin-bottom: 32px;
+    }
+    
+    .block6__mobile-photo-gallary {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .block6__mobile main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .block6__mobile main h2{
+        font-size: 7vw;
+        font-family: 'Open Sans ExtraBold';
+        margin-left: 4vw;
+    }
+    
+    .block6__mobile-gallary {
+        background: url(../image/mobile/project1mob@2x.png) no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        height: 140vw;
+        color: white;
+        margin-bottom: 24px;
+    }
+    
+    .block6__mobile-button-next {
+        width: 10vw;
+        border: none;
+        padding: 0;
+        margin-bottom: 4vw;
+        height: 10vw;
+        font-size: 7vw;
+        border-radius: 100px;
+        margin-right: 4vw;
+        font-weight: bold;
+        background: white;
+        cursor: pointer;
+    }
+    
+    .block6__mobile-photo-slider div:hover {
+        background: #FF9C41;
+    }
+    
+    .block6__mobile-photo-slider {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        align-self: center;
+    }
+    
+    .block6__mobile-photo-slider div {
+        height: 4vw;
+        width: 4vw;
+        border: none;
+        border-radius: 28px;
+        background: rgba(255, 157, 65, 0.431);
+    }
+
     .block7__icons img {
         cursor: pointer;
         width: 17px;
@@ -1152,16 +1216,20 @@ body {
         font-family: 'Open Sans SemiBold';
     }
 
-    .block6 {
+    .block6__mobile {
+        display: none;
+    }
+
+    .block6__desktop {
         margin-bottom: 159px;
     }
 
-    .block6__photo-gallary {
+    .block6__desktop-photo-gallary {
         display: flex;
         justify-content: flex-end;
     }
 
-    .block6 main h2 {
+    .block6__desktop main h2 {
         font-size: 45px;
         font-family: 'Open Sans ExtraBold';
         margin-top: 13px;
@@ -1169,7 +1237,7 @@ body {
         margin-left: 215px;
     }
 
-    .block6__photo-gallary h3 {
+    .block6__desktop-photo-gallary h3 {
         color: white;
         font-size: 35px;
         font-family: 'Open Sans ExtraBold';
@@ -1178,35 +1246,35 @@ body {
         display: none;
     }
 
-    .block6__gallary-item {
+    .block6__desktop-gallary-item {
         width: 417px;
         height: 746px;
         display: flex;
         align-items: flex-end;
     }
 
-    .block6__photo-gallary div:hover {
+    .block6__desktop-photo-gallary div:hover {
         opacity: 0.3;
         cursor: pointer;
     }
 
-    .block6__photo-gallary div:hover h3 {
+    .block6__desktop-photo-gallary div:hover h3 {
         display: initial;
     }
 
-    .block6__photo-gallary div:nth-child(1) {
+    .block6__desktop-photo-gallary div:nth-child(1) {
         background: url(../image/project1.png) no-repeat;
     }
 
-    .block6__photo-gallary div:nth-child(2) {
+    .block6__desktop-photo-gallary div:nth-child(2) {
         background: url(../image/project2.png) no-repeat;
     }
 
-    .block6__photo-gallary div:nth-child(3) {
+    .block6__desktop-photo-gallary div:nth-child(3) {
         background: url(../image/project3.png) no-repeat;
     }
 
-    .block6__photo-gallary div:nth-child(4) {
+    .block6__desktop-photo-gallary div:nth-child(4) {
         background: url(../image/project4.png) no-repeat;
         width: 132px;
     }
