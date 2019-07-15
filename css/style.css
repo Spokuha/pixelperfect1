@@ -276,7 +276,7 @@ body {
 }
 
 .block3__description p:nth-of-type(1) {
-    margin-bottom: 62px;
+    margin-bottom: 54px;
     line-height: 26px;
 }
 
@@ -308,7 +308,7 @@ body {
 .block3 .plyr{
     width: 782px;
     height: 682px;
-    margin-right: 129px;
+    margin-right: 133px;
 }
 
 .block3 .plyr__progress__buffer {
@@ -529,12 +529,16 @@ body {
     display: none;
 }
 
+
+
 .block5 .plyr__control {
     color: black;
-    background: orange;
-    width: 60px;
-    height: 60px;
-    left: 70px;
+    background: #FF9C41;
+    width: 50px;
+    height: 50px;
+    top: 22px;
+    left: 302px;
+    position: absolute;
     display: flex;
     justify-content: center;
     -webkit-border-radius: 50px;
@@ -543,16 +547,18 @@ body {
 }
 
 .block5 .plyr__progress{
-    left: 6.5px;
     margin-right: 13px;
-    top: 40px;
+    top: 58px;
+    display: none;
     position: relative;
     width: 20%;
+    left: 124px;
 }
 
 .block5 .plyr__volume {
-    position: absolute;
-    top: 328px;
+    display: none;
+    position: relative;
+    top: 290px;
 }
 
 .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
@@ -564,6 +570,7 @@ body {
     background: rgba(0,0,0,0.7) !important;
     color: orange !important;
 }
+
 
 
 .block5__audio1 {

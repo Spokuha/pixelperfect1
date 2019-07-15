@@ -46,7 +46,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 $(document).ready(function(){
 
+
     $('.plyr').on('click', 'button.plyr__control--overlaid', function() {
         $('.block3 .plyr__controls').css("display", "flex");
+    });
+
+    $('.plyr').on('click', 'button.plyr__control', function() {
+        $('.block5 .plyr__progress').css("display", "flex");
+        $('.block5 .plyr__volume').css("display", "flex");
     });
 });
