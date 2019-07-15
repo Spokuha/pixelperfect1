@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
         'play', // Play/pause playback
         'progress', // The progress bar and scrubber for playback and buffering
         'current-time', // The current time of playback
-        'captions',
         'volume',
 
     ];
@@ -38,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const audio3 = new Plyr('#audio-player3', { controls: audioControl });
     const audio4 = new Plyr('#audio-player4', { controls: audioControl });
     const audio5 = new Plyr('#audio-player5', { controls: audioControl });
+    const audio6 = new Plyr('#audio-player6', { controls: audioControl });
+
 
     window.player = player;
 

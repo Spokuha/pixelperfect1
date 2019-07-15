@@ -294,7 +294,7 @@ body {
 }
 
 .plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
-     background: none;
+    background: none;
     color: orange;
 }
 
@@ -315,12 +315,11 @@ body {
 .block3 .plyr__progress__buffer {
     background: white;
 }
-
-.block3 .plyr--full-ui input[type=range]{
+.plyr--full-ui input[type=range]{
     color: orange;
 }
 
-.block3 .plyr__control {
+.plyr__control {
     color:orange;
 }
 
@@ -453,11 +452,10 @@ body {
     padding: 0;
     height: 60px;
     font-size: 46px;
-    position: absolute;
+    position: relative;
     border-radius: 100px;
-    left: 47%;
+    left: 95%;
     font-weight: bold;
-    top: 88%;
     background: white;
     cursor: pointer;
 }
@@ -514,23 +512,87 @@ body {
     justify-content: space-between;
     padding-right: 216px;
 }
-.block5__audio-item {
+.block5__audio-person {
     flex-basis: 29%;
     margin-bottom: 52px;
 }
 
-.block5 audio {
+.block5__audio-item {
     width: 369px;
     height: 362px;
 }
 
-.block5__audio-item p {
+.block5 .plyr__controls {
+    background: none;
+}
+
+.block5 .plyr__time{
+    display: none;
+}
+
+.block5 .plyr__control {
+    color: black;
+    background: orange;
+    width: 60px;
+    height: 60px;
+    left: 70px;
+    display: flex;
+    justify-content: center;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.block5 .plyr__progress{
+    left: 6.5px;
+    margin-right: 13px;
+    top: 40px;
+    position: relative;
+    width: 20%;
+}
+
+.block5 .plyr__volume {
+    position: absolute;
+    top: 328px;
+}
+
+.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+    background: orange;
+    color: black;
+}
+
+.block5 .plyr__control--pressed {
+    background: rgba(0,0,0,0.7) !important;
+    color: orange !important;
+}
+
+
+.block5__audio1 {
+    background: url(../image/portrait1.png);
+}
+.block5__audio2 {
+    background: url(../image/portrait2.png);
+}
+.block5__audio3 {
+    background: url(../image/portrait3.png);
+}
+.block5__audio4 {
+    background: url(../image/portrait4.png);
+}
+.block5__audio5 {
+    background: url(../image/portrait5.png);
+}
+.block5__audio6 {
+    background: url(../image/portrait6.png);
+}
+
+.block5__audio-person p {
     font-size: 16px;
     font-family: 'Open Sans Regular';
     margin-top: 8px;
 }
 
-.block5__audio-item h2 {
+.block5__audio-person h2 {
     font-family: 'Open Sans ExtraBold';
     font-size: 24px;
     margin-top: 15px;
