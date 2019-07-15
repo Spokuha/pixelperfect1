@@ -110,18 +110,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 
-
+    height: 100%;
     margin-top: 87px;
+}
+
+.block1__main-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 57%;
 }
 
 .block1 main h1 {
 
-    margin-left: 93px;
     margin-bottom: 36px;
     margin-top: 68px;
-
     font-family: 'Open Sans ExtraBold';
     line-height: 85px;
     font-size: 72px;
@@ -136,16 +140,11 @@ body {
     font-family: 'Open Sans SemiBold';
     margin-right: 192px;
     line-height: 24px;
+    margin-bottom: 117px;
 }
 
 
-.block1 footer {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 102px;
-}
-
-.block1 footer button {
+.block1 main button {
     cursor: pointer;
     background: #FF9C41;
     border: none;
@@ -160,19 +159,19 @@ body {
 .block1__icons {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 156px;
+    align-items: flex-end;
+    height: 59%;
+    margin-right: 154px;
 }
 
-.block1 footer img {
+.block1__icons img {
     cursor: pointer;
     width: 17px;
     height: 17px;
     margin: 0 13px;
 }
 
-.block1 footer img:hover {
+.block1__icons img:hover {
     filter: invert(76%) sepia(61%) saturate(2775%) hue-rotate(329deg) brightness(105%) contrast(103%);
 }
 
