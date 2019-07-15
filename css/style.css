@@ -298,16 +298,41 @@ body {
     padding-top: 168px;
 }
 
-.block3 video {
-    width: 788px;
-    height: 683px;
+.block3 .plyr{
+    width: 782px;
+    height: 680px;
     margin-right: 129px;
+}
+
+.block3 .plyr__video-wrapper {
+    height: 100%;
+}
+
+.block3 .plyr__control--overlaid {
+    background: url(../image/play.svg) no-repeat;
+    background-size: cover;
+
+    width: 110px;
+    height: 110px;
+}
+
+.block3 .plyr__control--overlaid svg{
+    display: none;
 }
 
 .block3__description {
     width: 649px;
 }
 
+/* This is purely for the demo */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.plyr {
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
 
 .block4 {
     display: flex;
@@ -358,7 +383,7 @@ body {
 }
 
 
-.block4__left-side button {
+.block4__button-view {
     cursor: pointer;
     background: rgba(0,0,0,0);
     border: 2px #FF9C41 solid;
@@ -431,29 +456,29 @@ body {
     flex-basis: 43%;
 }
 
-.block5__video-set {
+.block5__audio-set {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 216px;
 }
-.block5__video-item {
+.block5__audio-item {
     flex-basis: 29%;
     margin-bottom: 52px;
 }
 
-.block5 video {
+.block5 audio {
     width: 369px;
     height: 362px;
 }
 
-.block5__video-item p {
+.block5__audio-item p {
     font-size: 16px;
     font-family: 'Open Sans Regular';
-    margin-top: 8px;    
+    margin-top: 8px;
 }
 
-.block5__video-item h2 {
+.block5__audio-item h2 {
     font-family: 'Open Sans ExtraBold';
     font-size: 24px;
     margin-top: 15px;
