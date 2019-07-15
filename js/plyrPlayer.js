@@ -14,6 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const controls = [
         'play-large', // The large play button in the center
+        'play', // Play/pause playback
+        'volume',
+        'fullscreen',
+
+        'progress', // The progress bar and scrubber for playback and buffering
+
     ];
 
     const audioControl = [
@@ -35,4 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.player = player;
 
+});
+
+$(document).ready(function(){
+
+    $('.plyr').on('click', 'button.plyr__control--overlaid', function() {
+        $('.block3 .plyr__controls').css("display", "flex");
+    });
 });

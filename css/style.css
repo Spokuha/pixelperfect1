@@ -285,9 +285,17 @@ body {
     margin-bottom: 62px;
 }
 
+.block3 .plyr__volume {
+    margin-right: 20px;
+}
 
 .block3__description h2:nth-child(1) {
     margin-top: 0;
+}
+
+.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+     background: none;
+    color: orange;
 }
 
 .block3__main {
@@ -300,8 +308,56 @@ body {
 
 .block3 .plyr{
     width: 782px;
-    height: 680px;
+    height: 682px;
     margin-right: 129px;
+}
+
+.block3 .plyr__progress__buffer {
+    background: white;
+}
+
+.block3 .plyr--full-ui input[type=range]{
+    color: orange;
+}
+
+.block3 .plyr__control {
+    color:orange;
+}
+
+.block3 .plyr__controls > button:first-child {
+    right: 562px;
+}
+
+.plyr [hidden] {
+    display: block !important;
+}
+
+.block3 .plyr__controls {
+    height: 112px;
+    display: none;
+}
+
+.block3 .plyr__progress{
+    width: 100%;
+    left: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    top: 100px;
+    margin-right: 13px;
+    position: absolute;
+    bottom: 0;
+    height: 19px;
+}
+
+.block3 .plyr__progress__buffer {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.block3 video {
+    height: 100%;
 }
 
 .block3 .plyr__video-wrapper {
@@ -328,10 +384,6 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-}
-.plyr {
-    border-radius: 4px;
-    margin-bottom: 15px;
 }
 
 .block4 {
@@ -517,7 +569,7 @@ body {
     background: rgba(0,0,0,0);
 }
 
-.block5 button {
+.block5__send-request {
     cursor: pointer;
     background: white;
     padding: 0;
