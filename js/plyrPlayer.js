@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
         'progress', // The progress bar and scrubber for playback and buffering
         'current-time', // The current time of playback
         'volume',
-        'mute',
 
     ];
 
