@@ -466,8 +466,8 @@ body {
     .block5__audio-volume {
 
         cursor: pointer;
-        height: 83px;
-        width: 29px;
+        height: 88px;
+        width: 27px;
         background: rgba(0,0,0,0.5);
         border-radius: 24px;
         border: 2px orange solid;
@@ -476,8 +476,8 @@ body {
         flex-direction: column;
         align-items: center;
         position: absolute;
-        right: 20px;
-        bottom: 60px;
+        right: 29px;
+        bottom: 76px;
     }
 
     .block5__audio-volume p {
@@ -549,6 +549,10 @@ body {
         color: #FF9C41;
         font-size: 16px;
         font-family: 'Open Sans SemiBold';
+    }
+
+    .block5__audio-volume p {
+        margin: 0;
     }
 
     .block6__desktop {
@@ -861,6 +865,10 @@ body {
         margin: 12px 0;
     }
 
+    .block1__right-side {
+        padding-right: 5px;
+    }
+
     .block1__right-side p {
         background: rgba(0, 0, 0, 0);
         border: none;
@@ -880,7 +888,7 @@ body {
     }
 
     .block1__right-side div {
-        margin-left: 42px;
+        margin-left: 40px;
     }
 
     .block1__right-side p:nth-child(2) {
@@ -894,8 +902,10 @@ body {
 
     .block1 main {
         display: flex;
-        justify-content: center;
+        justify-content: unset;
         align-items: center;
+
+        padding-left: 198px;
 
         height: 100%;
         margin-top: 87px;
@@ -910,7 +920,7 @@ body {
 
     .block1 main h1 {
 
-        margin-bottom: 36px;
+        margin-bottom: 33px;
         margin-top: 68px;
         font-family: 'Open Sans ExtraBold';
         line-height: 85px;
@@ -926,7 +936,7 @@ body {
         font-family: 'Open Sans SemiBold';
         margin-right: 192px;
         line-height: 24px;
-        margin-bottom: 117px;
+        margin-bottom: 120px;
     }
 
 
@@ -947,7 +957,7 @@ body {
         justify-content: center;
         align-items: flex-end;
         height: 59%;
-        margin-right: 154px;
+        margin-right: 158px;
     }
 
     .block1__icons img {
@@ -1055,7 +1065,7 @@ body {
     }
 
     .block3__description p:nth-of-type(1) {
-        margin-bottom: 54px;
+        margin-bottom: 57px;
         line-height: 26px;
     }
 
@@ -1066,6 +1076,7 @@ body {
 
     .block3__description h2:nth-child(1) {
         margin-top: 0;
+        margin-bottom: 19px;
     }
 
 
@@ -1073,7 +1084,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         flex-direction: unset;
-        margin-bottom: 32px;
+        margin-bottom: 1px;
         height: 864px;
         width: 100%;
         padding-top: 168px;
@@ -1166,7 +1177,7 @@ body {
         background: url(../image/image3@2x.png) no-repeat;
         background-size: cover;
         justify-content: flex-start;
-
+        margin-bottom: 30px;
         /*for button*/
         position: relative;
         /*for button*/
@@ -1186,7 +1197,6 @@ body {
     }
 
     .block4__desktop h2 {
-        margin-bottom: 9px;
         font-size: 24px;
         font-family: 'Open Sans ExtraBold';
     }
@@ -1195,7 +1205,8 @@ body {
         font-size: 16px;
         font-family: 'Open Sans SemiBold';
         line-height: 24px;
-        margin-bottom: 87px;
+        margin-bottom: 89px;
+        margin-top: 3px;
     }
 
     .block4__desktop-left-side {
@@ -1205,7 +1216,7 @@ body {
         flex-direction: column;
         flex-basis: 570px;
         padding-top: 190px;
-        padding-left: 216px;
+        padding-left: 215px;
     }
 
 
@@ -1228,12 +1239,15 @@ body {
         height: 60px;
         font-size: 46px;
         position: relative;
+        left: 540px;
+        display: flex;
         border-radius: 100px;
-        left: 95%;
-        top: 15%;
+        top: 100px;
         font-weight: bold;
         background: white;
         cursor: pointer;
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -1287,6 +1301,8 @@ body {
     .block5__audio-set {
         display: flex;
         flex-wrap: wrap;
+        padding-top: 4px;
+        padding-left: 31px;
     }
 
     .block5__audio-person {
@@ -1301,7 +1317,8 @@ body {
 
     .block5__audio-item {
         width: 369px;
-        height: 362px;
+        height: 359px;
+        margin-right: 32px;
     }
 
     .block5__audio-slider {
@@ -1321,8 +1338,8 @@ body {
         background: #FF9C41;
         width: 50px;
         height: 50px;
-        top: 22px;
-        left: 302px;
+        top: 19px;
+        left: 299px;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -1389,7 +1406,7 @@ body {
 
     .block5__audio-person h2 {
         font-size: 24px;
-        margin-top: 15px;
+        margin-top: 20px;
         margin-bottom: 0;
     }
 
@@ -1403,7 +1420,7 @@ body {
         background: url(../image/image4.png) no-repeat;
         background-size: cover;
         height: 398px;
-        margin-bottom: 141px;
+        margin-bottom: 138px;
         flex-wrap: wrap;
         flex-direction: column;
         padding-left: 401px;
@@ -1417,8 +1434,7 @@ body {
         font-size: 45px;
         color: white;
         height: 65px;
-        margin: 0;
-        margin-bottom: 70px;
+        margin: 0 0 66px;
     }
 
     .block5 input {
@@ -1428,7 +1444,8 @@ body {
         margin-bottom: 0;
         border: none;
         width: 499px;
-        margin-right: 67px;
+        padding-top: 9px;
+        margin-right: 70px;
         border-bottom: 2px white solid;
         background: rgba(0, 0, 0, 0);
     }
@@ -1452,7 +1469,7 @@ body {
 
     .block6__desktop {
         display: block;
-        margin-bottom: 159px;
+        margin-bottom: 158px;
     }
 
     .block6__desktop-photo-gallary {
@@ -1478,7 +1495,7 @@ body {
     }
 
     .block6__desktop-gallary-item {
-        width: 417px;
+        width: 418px;
         height: 746px;
         display: flex;
         align-items: flex-end;
