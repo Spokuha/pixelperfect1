@@ -132,7 +132,7 @@ body {
         font-size: 20px;
         width: 112px;
         height: 24px;
-        align-self: flex-end;
+        justify-self: flex-end;
     }
 
     .block2__learn-more:hover {
@@ -660,6 +660,8 @@ body {
 
     .block2__item {
         margin-right: 8px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
