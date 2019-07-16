@@ -174,7 +174,7 @@ body {
 
     .block3 .plyr {
         width: 782px;
-        height: 546px;
+        height: 500px;
     }
 
     .block3 .plyr__progress__buffer {
@@ -215,6 +215,11 @@ body {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         border-radius: 0;
+    }
+
+    .block3 .plyr__poster {
+        background: url(../image/mobile/videomob@2x.png) no-repeat;
+        background-size: 100% 100%;
     }
 
     .block3 video {
@@ -272,7 +277,7 @@ body {
 
     .block4__mobile header {
         background: url(../image/mobile/image3mob.png) no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         height: 528px;
         display: flex;
         justify-content: space-between;
@@ -658,6 +663,46 @@ body {
     }
 }
 
+@media (min-width: 570px) {
+    .block3__main {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 42px;
+    }
+
+    .block3 .plyr {
+        align-self: center;
+    }
+
+    .block3__description {
+        display: flex;
+    }
+
+    .block3__description div {
+        margin-right: 8px;
+    }
+
+    .block3__description div:last-child {
+        margin-right: 0;
+    }
+
+    .block4__mobile header {
+        background: url(../image/image3@2x.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .block4__mobile h1 {
+        color: #000;
+    }
+
+    .block6__mobile-gallary {
+        background: url(../image/project1@2x.png) no-repeat;
+        background-size: 100% 100%;
+        width: 70%;
+        height: 545px;
+        align-self: center;
+    }
+}
 
 @media (min-width: 1600px) {
 
