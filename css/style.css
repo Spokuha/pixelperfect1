@@ -17,6 +17,8 @@ body {
     margin: 0;
 }
 
+
+
 @media (min-width: 320px) {
 
     .block1 {
@@ -755,6 +757,7 @@ body {
 
     .block3__description {
         display: flex;
+        justify-content: space-between;
     }
 
     .block3__description div {
@@ -1058,10 +1061,17 @@ body {
         margin-right: 145px;
     }
 
+    .block3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .block3__title {
         display: flex;
         justify-content: unset;
-        padding:0;
+        padding: 0;
+        flex-basis: 100%;
+        margin-bottom: 170px;
     }
 
     .block3__title p {
@@ -1085,6 +1095,7 @@ body {
     .block3__description {
         width: 649px;
         flex-direction: column;
+        justify-content: unset;
         padding:0;
     }
 
@@ -1095,7 +1106,7 @@ body {
     }
 
     .block3__description p:nth-of-type(1) {
-        margin-bottom: 57px;
+        margin-bottom: 62px;
         line-height: 26px;
     }
 
@@ -1116,13 +1127,7 @@ body {
         flex-direction: unset;
         margin-bottom: 1px;
         height: 864px;
-        width: 100%;
-        padding-top: 168px;
-    }
-
-    .block3 .plyr {
-        align-self: unset;
-        margin-bottom: 0;
+        width: unset;
     }
 
     .block3 .plyr__volume {
@@ -1135,9 +1140,11 @@ body {
     }
 
     .block3 .plyr {
-        width: 782px;
-        height: 682px;
-        margin-right: 133px;
+        width: 785px;
+        height: 684px;
+        margin-right: 130px;
+        align-self: unset;
+        margin-bottom: 0;
     }
 
     .block3 .plyr__progress__buffer {
@@ -1212,9 +1219,7 @@ body {
         background-size: cover;
         justify-content: flex-start;
         margin-bottom: 30px;
-        /*for button*/
         position: relative;
-        /*for button*/
 
     }
 
@@ -1526,17 +1531,14 @@ body {
     .block6__desktop main h2 {
         font-size: 45px;
         font-family: 'Open Sans ExtraBold';
-        margin-top: 13px;
-        margin-bottom: 90px;
-        margin-left: 215px;
+        margin: 13px 0 90px 215px;
     }
 
     .block6__desktop-photo-gallary h3 {
         color: white;
         font-size: 35px;
         font-family: 'Open Sans ExtraBold';
-        margin-left: 83px;
-        margin-bottom: 48px;
+        margin: 0 0 48px 83px;
         display: none;
     }
 
