@@ -491,18 +491,33 @@ body {
         display: none;
     }
 
+    .block5__audio-mute:hover {
+        cursor: pointer;
+    }
+
     .block5__audio-volume p {
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         border-radius: 30px;
-        font-size: 16px;
         display: flex;
-        height: 100%;
+        height: 35%;
         width: 100%;
         color: orange;
         justify-content: center;
         align-items: center;
+        font-size: 29px;
+        position: relative;
     }
+
+    .block5__audio-volume p:first-child {
+        bottom: 9px;
+    }
+
+    .block5__audio-volume p:last-child {
+        top: 6px;
+    }
+
+
 
     .block5__audio-volume p:hover {
         background: orange;
@@ -1298,6 +1313,7 @@ body {
     .block5__description h2 {
         flex-basis: 43%;
         font-size: 24px;
+        margin-top: 19px;
         margin-right: 58px;
         font-family: 'Open Sans ExtraBold';
     }
@@ -1422,7 +1438,9 @@ body {
     }
 
     .block5__audio-volume p {
+        font-size: 29px;
         margin: 0;
+        position: relative;
     }
 
     .block5 footer {
@@ -1483,6 +1501,15 @@ body {
         margin-bottom: 158px;
     }
 
+    .block6__desktop-background {
+        position: absolute;
+        display: none;
+        background: rgba(0,0,0,0.5);
+        height: 100%;
+        width: 100%;
+        align-items: flex-end;
+    }
+
     .block6__desktop-photo-gallary {
         display: flex;
         justify-content: flex-end;
@@ -1508,32 +1535,34 @@ body {
     .block6__desktop-gallary-item {
         width: 418px;
         height: 746px;
-        display: flex;
-        align-items: flex-end;
+        position: relative;
     }
 
-    .block6__desktop-photo-gallary div:hover {
-        opacity: 0.3;
+    .block6__desktop-gallary-item:hover {
         cursor: pointer;
     }
 
-    .block6__desktop-photo-gallary div:hover h3 {
+    .block6__desktop-gallary-item:hover div {
+        display: flex;
+    }
+
+    .block6__desktop-gallary-item:hover h3 {
         display: initial;
     }
 
-    .block6__desktop-photo-gallary div:nth-child(1) {
+    .block6__desktop-gallary-item:nth-child(1) {
         background: url(../image/project1.png) no-repeat;
     }
 
-    .block6__desktop-photo-gallary div:nth-child(2) {
+    .block6__desktop-gallary-item:nth-child(2) {
         background: url(../image/project2.png) no-repeat;
     }
 
-    .block6__desktop-photo-gallary div:nth-child(3) {
+    .block6__desktop-gallary-item:nth-child(3) {
         background: url(../image/project3.png) no-repeat;
     }
 
-    .block6__desktop-photo-gallary div:nth-child(4) {
+    .block6__desktop-gallary-item:nth-child(4) {
         background: url(../image/project4.png) no-repeat;
         width: 132px;
     }
