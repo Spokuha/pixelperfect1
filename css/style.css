@@ -24,7 +24,7 @@ body {
         background-size: cover;
         display: flex;
         flex-direction: column;
-        height: 508px;
+        height: 100%;
         padding: 0 8vw;
 
     }
@@ -110,6 +110,7 @@ body {
         width: 230px;
         height: 55px;
         color: white;
+        margin-bottom: 42px;
         font-size: 16px;
         font-family: 'Open Sans SemiBold';
     }
@@ -1175,15 +1176,15 @@ body {
         top: 58px;
         display: none;
         position: relative;
-        width: 20%;
-        left: 124px;
+        width: 70%;
+        left: 32px;
     }
 
     .block5 .plyr__volume {
         display: none;
         position: relative;
-        right: 14px;
-        bottom: 10px;
+        right: 48px;
+        bottom: 0;
         transform: rotate(270deg);
     }
 
@@ -1196,11 +1197,6 @@ body {
         background: rgba(0, 0, 0, 0.7) !important;
         color: orange !important;
     }
-
-    .block5 .plyr__volume input {
-        width: 30%;
-    }
-
 
     .block5__audio1 {
         background: url(../image/portrait1.png);
@@ -1406,6 +1402,7 @@ body {
     .block7 > div:last-child {
         flex-direction: column;
         justify-content: unset;
+        margin-left: 39px;
     }
 
     .block7__icons img {
@@ -1427,6 +1424,7 @@ body {
     .block7__copyright {
         margin-left: 5px;
         line-height: 23px;
+        display: block;
     }
 
 }
