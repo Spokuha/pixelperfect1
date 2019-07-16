@@ -320,7 +320,7 @@ body {
     }
 
     .block5__audio-person {
-        flex-basis: 29%;
+        flex-basis: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -330,7 +330,7 @@ body {
     .block5__audio-slider div:hover {
         background: #FF9C41;
     }
-    
+
     .block5__audio-slider {
         display: flex;
         justify-content: space-between;
@@ -340,10 +340,10 @@ body {
     .block5__description {
         padding: 0 8vw;
     }
-    
+
     .block5__audio-slider div {
-        height: 4vw;
-        width: 4vw;
+        height: 20px;
+        width: 20px;
         border: none;
         border-radius: 28px;
         background: rgba(255, 157, 65, 0.431);
@@ -358,8 +358,14 @@ body {
         height: 310px;
     }
 
+    .block5 .plyr {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .block5 .plyr__controls {
         background: none;
+        width: 108px;
     }
 
     .block5 .plyr__time {
@@ -385,15 +391,15 @@ body {
         top: 58px;
         display: none;
         position: relative;
-        width: 20%;
-        left: 124px;
+        width: 100%;
+        left: 40px;
     }
 
     .block5 .plyr__volume {
         display: none;
         position: relative;
-        left: 50px;
-        bottom: 64px;
+        top: 22px;
+        right: 38px;
         transform: rotate(270deg);
     }
 
@@ -408,7 +414,7 @@ body {
     }
 
     .block5 .plyr__volume input {
-        width: 30%;
+        width: 28px;
     }
 
 
@@ -454,29 +460,29 @@ body {
         margin-bottom: 32px;
     }
 
-    .block5 footer {  
+    .block5 footer {
         display: flex;
         background: url(../image/image4.png) no-repeat;
         background-size: cover;
         height: 352px;
         flex-wrap: wrap;
-        padding: 0 16px;
+        padding: 0 8vw;
         flex-direction: column;
     }
-    
+
     .block5 footer div {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .block5 footer h2 {
         font-size: 28px;
         font-family: 'Open Sans ExtraBold';
         color: white;
         width: 100%
     }
-    
+
     .block5 input {
         color: white;
         font-size: 18px;
@@ -488,7 +494,7 @@ body {
         border-bottom: 2px white solid;
         background: rgba(0,0,0,0);
     }
-    
+
     .block5 button {
         cursor: pointer;
         background: white;
@@ -502,75 +508,137 @@ body {
         font-family: 'Open Sans SemiBold';
     }
 
+    .block6__desktop {
+        display: none;
+    }
+
     .block6__mobile {
         margin-bottom: 32px;
     }
-    
+
     .block6__mobile-photo-gallary {
         display: flex;
         justify-content: flex-end;
     }
-    
+
     .block6__mobile main {
         display: flex;
         flex-direction: column;
     }
-    
+
     .block6__mobile main h2{
-        font-size: 7vw;
+        font-size: 28px;
+        margin-left: 8vw;
         font-family: 'Open Sans ExtraBold';
-        margin-left: 4vw;
     }
-    
+
     .block6__mobile-gallary {
         background: url(../image/mobile/project1mob@2x.png) no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        height: 140vw;
+        height: 418px;
         color: white;
         margin-bottom: 24px;
+        width: 100%;
     }
-    
+
     .block6__mobile-button-next {
-        width: 10vw;
+        width: 60px;
         border: none;
         padding: 0;
-        margin-bottom: 4vw;
-        height: 10vw;
-        font-size: 7vw;
+        height: 60px;
+        margin-bottom: 16px;
+        margin-right: 8vw;
+        font-size: 46px;
         border-radius: 100px;
-        margin-right: 4vw;
         font-weight: bold;
         background: white;
         cursor: pointer;
     }
-    
+
     .block6__mobile-photo-slider div:hover {
         background: #FF9C41;
     }
-    
+
     .block6__mobile-photo-slider {
         display: flex;
         justify-content: space-evenly;
         width: 50%;
         align-self: center;
     }
-    
+
     .block6__mobile-photo-slider div {
-        height: 4vw;
-        width: 4vw;
+        height: 20px;
+        width: 20px;
         border: none;
         border-radius: 28px;
         background: rgba(255, 157, 65, 0.431);
+    }
+
+    .block7 {
+        padding:0 8vw;
+    }
+
+    .block7 > div:last-child {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .block7__icons {
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 20px;
     }
 
     .block7__icons img {
         cursor: pointer;
         width: 17px;
         height: 17px;
-        margin-right: 24px;
+        margin-right: 8px;
+    }
+
+    .block7__copyright {
+        display: flex;
+    }
+
+    .block7__copyright img {
+        margin-right: 16px;
+    }
+
+    .block7__desktop-company-info {
+        display: none;
+    }
+
+    .block7__mobile-company-info {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 48px;
+    }
+
+    .block7__mobile-company-info div {
+        flex-basis: 29%;
+    }
+
+    .block7__mobile-company-info div:nth-of-type(3n+1){
+        margin-right: 16px;
+    }
+
+
+    .block7__mobile-company-info p {
+        font-size: 16px;
+        font-family: 'Open Sans ExtraBold';
+        margin-top: 0;
+    }
+
+    .block7__mobile-company-info div:nth-child(3n+2) {
+        margin-right: 16px;
+    }
+
+    .block7__mobile-company-info div:nth-child(3n+2) {
+        margin-right: 18px;
     }
 }
 
@@ -1030,6 +1098,7 @@ body {
         flex-wrap: wrap;
         justify-content: flex-start;
         margin-bottom: 75px;
+        padding: 0;
     }
 
     .block5__description h1 {
@@ -1159,15 +1228,13 @@ body {
 
     .block5__audio-person p {
         font-size: 16px;
-        font-family: 'Open Sans Regular';
         margin-top: 8px;
     }
 
     .block5__audio-person h2 {
-        font-family: 'Open Sans ExtraBold';
         font-size: 24px;
         margin-top: 15px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .block5 footer {
@@ -1182,9 +1249,12 @@ body {
         padding-left: 401px;
     }
 
+    .block5 footer div {
+        flex-direction: unset;
+    }
+
     .block5 footer h2 {
         font-size: 45px;
-        font-family: 'Open Sans ExtraBold';
         color: white;
         height: 65px;
         margin: 0;
@@ -1194,8 +1264,8 @@ body {
     .block5 input {
         color: white;
         font-size: 18px;
-        font-family: 'Open Sans Regular';
         height: 42px;
+        margin-bottom: 0;
         border: none;
         width: 499px;
         margin-right: 67px;
@@ -1221,6 +1291,7 @@ body {
     }
 
     .block6__desktop {
+        display: block;
         margin-bottom: 159px;
     }
 
@@ -1288,7 +1359,11 @@ body {
         font-family: 'Open Sans Regular';
     }
 
-    .block7__company-info {
+    .block7__mobile-company-info {
+        display: none;
+    }
+
+    .block7__desktop-company-info {
         display: flex;
         flex-basis: 65%;
         flex-wrap: wrap;
@@ -1296,27 +1371,27 @@ body {
 
     }
 
-    .block7__company-info p:hover {
+    .block7__desktop-company-info p:hover {
         cursor: pointer;
     }
 
-    .block7__company-info div:nth-child(1) {
+    .block7__desktop-company-info div:nth-child(1) {
         margin-right: 100px;
     }
 
-    .block7__company-info div:nth-child(2) {
+    .block7__desktop-company-info div:nth-child(2) {
         margin-right: 87px;
     }
 
-    .block7__company-info div:nth-child(3) {
+    .block7__desktop-company-info div:nth-child(3) {
         margin-right: 83px;
     }
 
-    .block7__company-info div:nth-child(4) {
+    .block7__desktop-company-info div:nth-child(4) {
         margin-right: 53px;
     }
 
-    .block7__company-info p:first-child {
+    .block7__desktop-company-info p:first-child {
         font-size: 16px;
         font-family: 'Open Sans ExtraBold';
         margin-top: 0;
@@ -1324,6 +1399,13 @@ body {
 
     .block7__icons {
         margin-bottom: 72px;
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .block7 > div:last-child {
+        flex-direction: column;
+        justify-content: unset;
     }
 
     .block7__icons img {
