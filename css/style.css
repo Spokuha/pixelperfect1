@@ -488,6 +488,7 @@ body {
         position: absolute;
         right: 34px;
         bottom: 30px;
+        display: none;
     }
 
     .block5__audio-volume p {

@@ -53,5 +53,7 @@ $(document).ready(function(){
 
     $('.block5__audio-set').on('click', 'button.plyr__control', function() {
         $('.block5__audio-volume').css("display", "flex");
+        $('.block5__audio-mute').css("display", "block");
+
     });
 });
