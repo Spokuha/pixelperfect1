@@ -928,6 +928,7 @@ body {
         background-size: cover;
         padding-left: 216px;
         padding-top: 84px;
+        margin-bottom: 188px;
         height: 721px;
     }
 
@@ -950,12 +951,13 @@ body {
         justify-content: unset;
     }
 
-    .block2_info-text {
+    .block2__info-text {
         font-family: 'Open Sans Regular';
         font-size: 16px;
         line-height: 24px;
         flex-basis: 100%;
         margin-top: 0;
+        margin-bottom: 29px;
         height: 50%;
     }
 
@@ -977,6 +979,7 @@ body {
 
     .block3__title {
         display: flex;
+        justify-content: unset;
         padding:0;
     }
 
@@ -1028,9 +1031,16 @@ body {
     .block3__main {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: unset;
+        margin-bottom: 32px;
         height: 864px;
         width: 100%;
         padding-top: 168px;
+    }
+
+    .block3 .plyr {
+        align-self: unset;
+        margin-bottom: 0;
     }
 
     .block3 .plyr__volume {
@@ -1199,7 +1209,6 @@ body {
     }
 
     .block5 main {
-        padding-left: 215px;
         margin-bottom: 62px;
         display: flex;
         flex-direction: column;
@@ -1210,7 +1219,7 @@ body {
         flex-wrap: wrap;
         justify-content: flex-start;
         margin-bottom: 75px;
-        padding: 0;
+        padding: 0 0 0 88px;
     }
 
     .block5__description h1 {
@@ -1223,6 +1232,7 @@ body {
     .block5__description h2 {
         flex-basis: 43%;
         font-size: 24px;
+        margin-right: 58px;
         font-family: 'Open Sans ExtraBold';
     }
 
@@ -1236,8 +1246,6 @@ body {
     .block5__audio-set {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        padding-right: 216px;
     }
 
     .block5__audio-person {
