@@ -325,6 +325,14 @@ body {
         cursor: pointer;
     }
 
+
+    .plyr__control svg {
+        height: 12px;
+        width: 12px;
+        position: relative;
+        left: 2px;
+    }
+
     .block5__audio-set {
         display: flex;
         flex-wrap: wrap;
@@ -390,7 +398,8 @@ body {
         background: #FF9C41;
         width: 50px;
         height: 50px;
-        top: 22px;
+        top: 16px;
+        left: 300px;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -1088,7 +1097,6 @@ body {
     .block3__title h2 {
         margin-left: 217px;
         margin-right: 95px;
-
         line-height: 35px;
     }
 
@@ -1293,7 +1301,10 @@ body {
     .block4__desktop-page-line {
         background: #333333;
         width: 2px;
-        height: 158px;
+        height: 160px;
+        position: relative;
+        bottom: 2px;
+        right: 2px;
     }
 
     .block5 {
@@ -1378,8 +1389,8 @@ body {
         background: #FF9C41;
         width: 50px;
         height: 50px;
-        top: 19px;
-        left: 299px;
+        top: 16px;
+        left: 300px;
         position: absolute;
         display: flex;
         justify-content: center;
