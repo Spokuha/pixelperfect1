@@ -480,6 +480,16 @@ body {
         bottom: 76px;
     }
 
+    .block5__audio-mute {
+        background: url(../image/speaker2.svg) no-repeat;
+        background-size: cover;
+        width: 7%;
+        height: 7%;
+        position: absolute;
+        right: 34px;
+        bottom: 30px;
+    }
+
     .block5__audio-volume p {
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
