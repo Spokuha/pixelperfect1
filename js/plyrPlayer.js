@@ -47,13 +47,13 @@ document.addEventListener('DOMContentLoaded', () => {
 $(document).ready(function(){
 
 
-    $('.block__advantages .plyr').on('click', 'button.plyr__control--overlaid', function() {
-        $('.block__advantages .plyr__controls').css("display", "flex");
+    $('.block-advantages .plyr').on('click', 'button.plyr__control--overlaid', function() {
+        $('.block-advantages .plyr__controls').css("display", "flex");
     });
 
     $('.block__ourteam--audio-set').on('click', 'button.plyr__control', function() {
-        $('.block__ourteam--audio-volume').css("display", "flex");
-        $('.block__ourteam--audio-mute').css("display", "block");
+        $('.block-ourteam__audio-volume').css("display", "flex");
+        $('.block-ourteam__audio-mute').css("display", "block");
 
     });
 });
