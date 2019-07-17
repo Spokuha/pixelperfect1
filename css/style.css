@@ -303,7 +303,7 @@ body {
         font-family: 'Open Sans SemiBold';
     }
 
-    .block-interiors-mobile__button-next {
+    .block-interiors-mobile_button_next {
         width: 60px;
         border: none;
         padding: 0;
@@ -430,28 +430,28 @@ body {
     }
 
 
-    .block-ourteam__audio1 {
+    .block-ourteam_audio1 {
         background: url(../image/portrait1.png);
         background-size: cover;
     }
 
-    .block-ourteam__audio2 {
+    .block-ourteam_audio2 {
         background: url(../image/portrait2.png);
     }
 
-    .block-ourteam__audio3 {
+    .block-ourteam_audio3 {
         background: url(../image/portrait3.png);
     }
 
-    .block-ourteam__audio4 {
+    .block-ourteam_audio4 {
         background: url(../image/portrait4.png);
     }
 
-    .block-ourteam__audio5 {
+    .block-ourteam_audio5 {
         background: url(../image/portrait5.png);
     }
 
-    .block-ourteam__audio6 {
+    .block-ourteam_audio6 {
         background: url(../image/portrait6.png);
     }
 
@@ -485,7 +485,7 @@ body {
         bottom: 76px;
     }
 
-    .block-ourteam__audio-mute {
+    .block-ourteam_audio_mute {
         background: url(../image/speaker2.svg) no-repeat;
         background-size: cover;
         width: 7%;
@@ -496,7 +496,7 @@ body {
         display: none;
     }
 
-    .block-ourteam__audio-mute:hover {
+    .block-ourteam_audio_mute:hover {
         cursor: pointer;
     }
 
@@ -622,7 +622,7 @@ body {
         width: 100%;
     }
 
-    .block-ourprojects-mobile__button-next {
+    .block-ourprojects-mobile_button-next {
         width: 60px;
         height: 60px;
         border: none;
@@ -1264,7 +1264,7 @@ body {
     }
 
 
-    .block-interiors-desktop__button-view {
+    .block-interiors-desktop_button_view {
         cursor: pointer;
         background: rgba(0, 0, 0, 0);
         border: 2px #FF9C41 solid;
@@ -1276,7 +1276,7 @@ body {
         font-family: 'Open Sans SemiBold';
     }
 
-    .block-interiors-desktop__button-next {
+    .block-interiors-desktop_button_next {
         width: 60px;
         height: 60px;
         font-size: 46px;
@@ -1294,7 +1294,7 @@ body {
     }
 
 
-    .block-interiors-desktop__page-line {
+    .block-interiors-desktop_page_line {
         background: #333333;
         width: 2px;
         height: 160px;
@@ -1499,7 +1499,7 @@ body {
         background: rgba(0, 0, 0, 0);
     }
 
-    .block-ourteam__send-request {
+    .block-ourteam_send_request {
         cursor: pointer;
         background: white;
         padding: 0;
@@ -1521,7 +1521,7 @@ body {
         margin-bottom: 158px;
     }
 
-    .block-ourprojects-desktop__itembackground {
+    .block-ourprojects-desktop__item-background {
         position: absolute;
         display: none;
         background: rgba(0,0,0,0.5);
