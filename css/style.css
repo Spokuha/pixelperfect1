@@ -1511,7 +1511,7 @@ body {
         margin-bottom: 158px;
     }
 
-    .block__ourprojects-desktop--background {
+    .block__ourprojects-desktop--itembackground {
         position: absolute;
         display: none;
         background: rgba(0,0,0,0.5);
