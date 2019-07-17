@@ -390,7 +390,7 @@ body {
         width: 50px;
         height: 50px;
         top: 16px;
-        left: 300px;
+        left: 250px;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -656,67 +656,67 @@ body {
         background: rgba(255, 157, 65, 0.431);
     }
 
-    .block7 {
+    .block__about {
         padding:0 8vw;
     }
 
-    .block7 > div:last-child {
+    .block__about > div:last-child {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
     }
 
-    .block7__icons {
+    .block__about--icons {
         display: flex;
         align-items: flex-end;
         padding-bottom: 20px;
     }
 
-    .block7__icons img {
+    .block__about--icons img {
         cursor: pointer;
         width: 17px;
         height: 17px;
         margin-right: 8px;
     }
 
-    .block7__copyright {
+    .block__about--copyright {
         display: flex;
     }
 
-    .block7__copyright img {
+    .block__about--copyright img {
         margin-right: 16px;
     }
 
-    .block7__desktop-company-info {
+    .block__about-desktop--company-info {
         display: none;
     }
 
-    .block7__mobile-company-info {
+    .block__about-mobile--company-info {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 48px;
     }
 
-    .block7__mobile-company-info div {
+    .block__about-mobile--company-info div {
         flex-basis: 29%;
     }
 
-    .block7__mobile-company-info div:nth-of-type(3n+1){
+    .block__about-mobile--company-info div:nth-of-type(3n+1){
         margin-right: 16px;
     }
 
 
-    .block7__mobile-company-info p {
+    .block__about-mobile--company-info p {
         font-size: 16px;
         font-family: 'Open Sans ExtraBold';
         margin-top: 0;
     }
 
-    .block7__mobile-company-info div:nth-child(3n+2) {
+    .block__about-mobile--company-info div:nth-child(3n+2) {
         margin-right: 16px;
     }
 
-    .block7__mobile-company-info div:nth-child(3n+2) {
+    .block__about-mobile--company-info div:nth-child(3n+2) {
         margin-right: 18px;
     }
 }
@@ -1574,7 +1574,7 @@ body {
         width: 132px;
     }
 
-    .block7 {
+    .block__about {
         display: flex;
         padding: 0;
 
@@ -1586,11 +1586,11 @@ body {
         font-family: 'Open Sans Regular';
     }
 
-    .block7__mobile-company-info {
+    .block__about-mobile--company-info {
         display: none;
     }
 
-    .block7__desktop-company-info {
+    .block__about-desktop--company-info {
         display: flex;
         flex-basis: 65%;
         flex-wrap: wrap;
@@ -1598,60 +1598,60 @@ body {
 
     }
 
-    .block7__desktop-company-info p:hover {
+    .block__about-desktop--company-info p:hover {
         cursor: pointer;
     }
 
-    .block7__desktop-company-info div:nth-child(1) {
+    .block__about-desktop--company-info div:nth-child(1) {
         margin-right: 100px;
     }
 
-    .block7__desktop-company-info div:nth-child(2) {
+    .block__about-desktop--company-info div:nth-child(2) {
         margin-right: 87px;
     }
 
-    .block7__desktop-company-info div:nth-child(3) {
+    .block__about-desktop--company-info div:nth-child(3) {
         margin-right: 83px;
     }
 
-    .block7__desktop-company-info div:nth-child(4) {
+    .block__about-desktop--company-info div:nth-child(4) {
         margin-right: 53px;
     }
 
-    .block7__desktop-company-info p:first-child {
+    .block__about-desktop--company-info p:first-child {
         font-size: 16px;
         font-family: 'Open Sans ExtraBold';
         margin-top: 0;
     }
 
-    .block7__icons {
+    .block__about--icons {
         margin-bottom: 72px;
         display: block;
         padding-bottom: 0;
     }
 
-    .block7 > div:last-child {
+    .block__about > div:last-child {
         flex-direction: column;
         justify-content: unset;
     }
 
-    .block7__icons img {
+    .block__about--icons img {
         cursor: pointer;
         width: 17px;
         height: 17px;
         margin-right: 24px;
     }
 
-    .block7__icons img:last-child {
+    .block__about--icons img:last-child {
         margin-right: 0;
     }
 
-    .block7__icons img:hover {
+    .block__about--icons img:hover {
         filter: invert(76%) sepia(61%) saturate(2775%) hue-rotate(329deg) brightness(105%) contrast(103%);
     }
 
 
-    .block7__copyright {
+    .block__about--copyright {
         margin-left: 5px;
         line-height: 23px;
         display: block;
