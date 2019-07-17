@@ -308,10 +308,9 @@ body {
         border: none;
         padding: 0;
         height: 60px;
+        font-size: 25px;
         margin-bottom: 16px;
-        font-size: 46px;
         border-radius: 100px;
-        font-weight: bold;
         background: white;
         cursor: pointer;
     }
@@ -625,14 +624,13 @@ body {
 
     .block__ourprojects-mobile--button-next {
         width: 60px;
+        height: 60px;
         border: none;
         padding: 0;
-        height: 60px;
+        font-size: 25px;
         margin-bottom: 16px;
         margin-right: 8vw;
-        font-size: 46px;
         border-radius: 100px;
-        font-weight: bold;
         background: white;
         cursor: pointer;
     }
@@ -718,6 +716,10 @@ body {
 
     .block__about-mobile--company-info div:nth-child(3n+2) {
         margin-right: 18px;
+    }
+
+    .block__about--icons img:hover {
+        filter: invert(76%) sepia(61%) saturate(2775%) hue-rotate(329deg) brightness(105%) contrast(103%);
     }
 }
 
@@ -1267,16 +1269,15 @@ body {
 
     .block__interiors-desktop--button-next {
         width: 60px;
-        border: none;
-        padding: 0;
         height: 60px;
         font-size: 46px;
+        border: none;
+        padding: 0;
         position: relative;
         left: 540px;
         display: flex;
         border-radius: 100px;
         top: 100px;
-        font-weight: bold;
         background: white;
         cursor: pointer;
         justify-content: center;
@@ -1644,10 +1645,6 @@ body {
 
     .block__about--icons img:last-child {
         margin-right: 0;
-    }
-
-    .block__about--icons img:hover {
-        filter: invert(76%) sepia(61%) saturate(2775%) hue-rotate(329deg) brightness(105%) contrast(103%);
     }
 
 
