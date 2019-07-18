@@ -17,11 +17,11 @@ body {
     margin: 0;
 }
 
-input {
+input,button {
     outline: none;
 }
 
-h2,h1 {
+h3,h2,h1 {
     font-family: 'Open Sans ExtraBold';
 }
 
@@ -269,13 +269,11 @@ p {
         margin-bottom: 28px;
         color: white;
         font-size: 28px;
-        font-family: 'Open Sans ExtraBold';
     }
 
     .block-interiors-mobile h2 {
         margin-bottom: 9px;
         font-size: 20px;
-        font-family: 'Open Sans ExtraBold';
     }
 
     .block-interiors-mobile p {
@@ -408,7 +406,7 @@ p {
         width: 50px;
         height: 50px;
         top: 19px;
-        left: 299px;
+        right: 21px;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -481,7 +479,6 @@ p {
     }
 
     .block-ourteam__audio-person h2 {
-        font-family: 'Open Sans ExtraBold';
         font-size: 24px;
         margin-top: 15px;
         margin-bottom: 0px;
@@ -571,7 +568,6 @@ p {
 
     .block-ourteam__feedback h2 {
         font-size: 28px;
-        font-family: 'Open Sans ExtraBold';
         color: white;
         width: 100%
     }
@@ -626,7 +622,6 @@ p {
     .block-ourprojects-mobile main h2{
         font-size: 28px;
         margin-left: 8vw;
-        font-family: 'Open Sans ExtraBold';
     }
 
     .block-ourprojects-mobile__gallary {
@@ -977,7 +972,6 @@ p {
 
         margin-bottom: 33px;
         margin-top: 68px;
-        font-family: 'Open Sans ExtraBold';
         line-height: 85px;
         font-size: 72px;
     }
@@ -1040,14 +1034,12 @@ p {
 
     .block-services h1 {
         font-size: 70px;
-        font-family: 'Open Sans ExtraBold';
         margin-bottom: 42px;
 
     }
 
     .block-services h2 {
         font-size: 34px;
-        font-family: 'Open Sans ExtraBold';
         line-height: 42px;
         margin-bottom: 28px;
     }
@@ -1102,7 +1094,6 @@ p {
 
     .block-advantages h2 {
         font-size: 24px;
-        font-family: 'Open Sans ExtraBold';
     }
 
     .block-advantages__title h2 {
@@ -1245,12 +1236,10 @@ p {
         margin-top: 0;
         margin-bottom: 60px;
         font-size: 45px;
-        font-family: 'Open Sans ExtraBold';
     }
 
     .block-interiors-desktop h2 {
         font-size: 24px;
-        font-family: 'Open Sans ExtraBold';
     }
 
     .block-interiors-desktop p {
@@ -1287,12 +1276,13 @@ p {
     .block-interiors-desktop__button-next {
         width: 60px;
         height: 60px;
-        font-size: 46px;
+        font-size: 36px;
         border: none;
         padding: 0;
         position: relative;
         left: 540px;
         display: flex;
+        padding-bottom: 4px;
         border-radius: 100px;
         top: 100px;
         background: white;
@@ -1333,7 +1323,6 @@ p {
 
     .block-ourteam__description h1 {
         font-size: 45px;
-        font-family: 'Open Sans ExtraBold';
         margin-bottom: 42px;
         flex-basis: 100%;
     }
@@ -1343,7 +1332,6 @@ p {
         font-size: 24px;
         margin-top: 19px;
         margin-right: 58px;
-        font-family: 'Open Sans ExtraBold';
     }
 
     .block-ourteam__description p {
@@ -1422,11 +1410,6 @@ p {
     .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
         background: orange;
         color: black;
-    }
-
-    .block-ourteam .plyr__control--pressed {
-        background: rgba(0, 0, 0, 0.7) !important;
-        color: orange !important;
     }
 
     .block-ourteam__audio1 {
@@ -1544,15 +1527,13 @@ p {
 
     .block-ourprojects-desktop main h2 {
         font-size: 45px;
-        font-family: 'Open Sans ExtraBold';
         margin: 13px 0 90px 215px;
     }
 
     .block-ourprojects-desktop__photo-gallary h3 {
         color: white;
         font-size: 35px;
-        font-family: 'Open Sans ExtraBold';
-        margin: 0 0 48px 83px;
+        margin: 0 0 51px 52px;
         display: none;
     }
 
@@ -1636,7 +1617,6 @@ p {
 
     .block-about-desktop__company-info p:first-child {
         font-size: 16px;
-        font-family: 'Open Sans ExtraBold';
         margin-top: 0;
     }
 
