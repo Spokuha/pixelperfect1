@@ -332,7 +332,13 @@ p {
         height: 12px;
         width: 12px;
         position: relative;
-        left: 2px;
+    }
+
+    .block-ourteam__audio-item .icon--pressed {
+        width: 17px;
+        height: 17px;
+        right: 1px;
+        top: 1px;
     }
 
     .block-ourteam__audio-set {
@@ -401,8 +407,8 @@ p {
         background: #FF9C41;
         width: 50px;
         height: 50px;
-        top: 16px;
-        left: 250px;
+        top: 19px;
+        left: 299px;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -1386,8 +1392,8 @@ p {
         background: #FF9C41;
         width: 50px;
         height: 50px;
-        top: 16px;
-        left: 300px;
+        top: 19px;
+        left: 299px;
         position: absolute;
         display: flex;
         justify-content: center;
