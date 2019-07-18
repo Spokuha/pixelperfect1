@@ -303,7 +303,7 @@ body {
         font-family: 'Open Sans SemiBold';
     }
 
-    .block-interiors-mobile_button_next {
+    .block-interiors-mobile__button-next {
         width: 60px;
         border: none;
         padding: 0;
@@ -337,10 +337,6 @@ body {
         justify-content: center;
     }
 
-    .block-ourteam__audio-slider div:hover {
-        background: #FF9C41;
-    }
-
     .block-ourteam__audio-slider {
         display: flex;
         justify-content: space-between;
@@ -351,12 +347,17 @@ body {
         padding: 0 8vw;
     }
 
-    .block-ourteam__audio-slider div {
+    .slider_item div{
+        cursor: pointer;
         height: 20px;
         width: 20px;
         border: none;
         border-radius: 28px;
         background: rgba(255, 157, 65, 0.431);
+    }
+
+    .slider_item div:hover {
+        background: #FF9C41;
     }
 
     .block-ourteam .block-ourteam__audio-person:nth-child(n+2) {
@@ -430,6 +431,7 @@ body {
     }
 
 
+
     .block-ourteam_audio1 {
         background: url(../image/portrait1.png);
         background-size: cover;
@@ -485,7 +487,7 @@ body {
         bottom: 77px;
     }
 
-    .block-ourteam_audio_mute {
+    .block-ourteam__audio-mute {
         background: url(../image/speaker2.svg) no-repeat;
         background-size: cover;
         width: 7%;
@@ -496,7 +498,7 @@ body {
         display: none;
     }
 
-    .block-ourteam_audio_mute:hover {
+    .block-ourteam__audio-mute:hover {
         cursor: pointer;
     }
 
@@ -622,7 +624,7 @@ body {
         width: 100%;
     }
 
-    .block-ourprojects-mobile_button_next {
+    .block-ourprojects-mobile__button-next {
         width: 60px;
         height: 60px;
         border: none;
@@ -635,23 +637,12 @@ body {
         cursor: pointer;
     }
 
-    .block-ourprojects-mobile__photo-slider div:hover {
-        background: #FF9C41;
-    }
 
     .block-ourprojects-mobile__photo-slider {
         display: flex;
         justify-content: space-evenly;
         width: 50%;
         align-self: center;
-    }
-
-    .block-ourprojects-mobile__photo-slider div {
-        height: 20px;
-        width: 20px;
-        border: none;
-        border-radius: 28px;
-        background: rgba(255, 157, 65, 0.431);
     }
 
     .block-about {
@@ -1264,7 +1255,7 @@ body {
     }
 
 
-    .block-interiors-desktop_button_view {
+    .block-interiors-desktop__button-view {
         cursor: pointer;
         background: rgba(0, 0, 0, 0);
         border: 2px #FF9C41 solid;
@@ -1276,7 +1267,7 @@ body {
         font-family: 'Open Sans SemiBold';
     }
 
-    .block-interiors-desktop_button_next {
+    .block-interiors-desktop__button-next {
         width: 60px;
         height: 60px;
         font-size: 46px;

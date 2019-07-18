@@ -17,10 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
         'play', // Play/pause playback
         'volume',
         'fullscreen',
-
         'progress', // The progress bar and scrubber for playback and buffering
 
     ];
+
+    const player = new Plyr('#video-player', { controls });
+
 
     const audioControl = [
         'play', // Play/pause playback
@@ -30,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     ];
 
-    const player = new Plyr('#video-player', { controls });
 
     const audio1 = new Plyr('#audio-player1', { controls: audioControl });
     const audio2 = new Plyr('#audio-player2', { controls: audioControl });
@@ -45,8 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 $(document).ready(function(){
-
-
     $('.block-advantages .plyr').on('click', 'button.plyr__control--overlaid', function() {
         $('.block-advantages .plyr__controls').css("display", "flex");
     });
