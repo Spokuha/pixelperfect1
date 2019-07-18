@@ -17,9 +17,22 @@ body {
     margin: 0;
 }
 
+input {
+    outline: none;
+}
+
+h2,h1 {
+    font-family: 'Open Sans ExtraBold';
+}
+
+p {
+    font-family: 'Open Sans Regular';
+}
 
 
 @media (min-width: 320px) {
+
+
 
     .block-home {
         background: url(../image/image1.png) no-repeat;
@@ -88,7 +101,6 @@ body {
     }
 
     .block-home main h1 {
-        font-family: 'Open Sans ExtraBold';
         font-size: 26px;
     }
 
@@ -459,7 +471,6 @@ body {
 
     .block-ourteam__audio-person p {
         font-size: 16px;
-        font-family: 'Open Sans Regular';
         margin-top: 8px;
     }
 
@@ -697,7 +708,7 @@ body {
 
     .block-about-mobile__company-info p {
         font-size: 16px;
-        font-family: 'Open Sans ExtraBold';
+        font-family: 'Open Sans SemiBold';
         margin-top: 0;
     }
 
@@ -867,10 +878,13 @@ body {
         flex-wrap: wrap;
     }
 
+
+
     .block-home__left-side input {
         background: rgba(0, 0, 0, 0);
         border: none;
         font-size: 16px;
+        padding-right: 16px;
         font-family: 'Open Sans SemiBold';
     }
 
@@ -1038,7 +1052,6 @@ body {
     }
 
     .block-services__info-text {
-        font-family: 'Open Sans Regular';
         font-size: 16px;
         line-height: 24px;
         flex-basis: 100%;
@@ -1078,7 +1091,6 @@ body {
 
     .block-advantages__title p {
         font-size: 18px;
-        font-family: 'Open Sans Regular';
         line-height: 26px;
     }
 
@@ -1102,12 +1114,11 @@ body {
 
     .block-advantages__description p {
         font-size: 16px;
-        font-family: 'Open Sans Regular';
         line-height: 25px;
     }
 
     .block-advantages__description p:nth-of-type(1) {
-        margin-bottom: 62px;
+        margin-bottom: 56px;
         line-height: 26px;
     }
 
@@ -1240,7 +1251,7 @@ body {
         font-size: 16px;
         font-family: 'Open Sans SemiBold';
         line-height: 24px;
-        margin-bottom: 89px;
+        margin-bottom: 90px;
         margin-top: 3px;
     }
 
@@ -1250,7 +1261,7 @@ body {
         align-items: flex-start;
         flex-direction: column;
         flex-basis: 570px;
-        padding-top: 190px;
+        padding-top: 187px;
         padding-left: 215px;
     }
 
@@ -1296,7 +1307,7 @@ body {
 
     .block-ourteam {
         display: flex;
-        padding-top: 110px;
+        padding-top: 108px;
         flex-direction: column;
     }
 
@@ -1331,7 +1342,6 @@ body {
 
     .block-ourteam__description p {
         font-size: 18px;
-        font-family: 'Open Sans Regular';
         color: #676767;
         flex-basis: 43%;
     }
@@ -1484,7 +1494,7 @@ body {
         margin-bottom: 0;
         border: none;
         width: 499px;
-        padding-top: 9px;
+        padding-top: 10px;
         margin-right: 70px;
         border-bottom: 2px white solid;
         background: rgba(0, 0, 0, 0);
@@ -1584,7 +1594,6 @@ body {
 
 
         font-size: 14px;
-        font-family: 'Open Sans Regular';
     }
 
     .block-about-mobile__company-info {

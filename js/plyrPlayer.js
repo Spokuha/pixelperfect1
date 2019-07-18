@@ -52,7 +52,7 @@ $(document).ready(function(){
 
     $('.block-ourteam__audio-set').on('click', 'button.plyr__control', function() {
         $('.block-ourteam__audio-volume').css("display", "flex");
-        $('.block-ourteam_audio_mute').css("display", "block");
+        $('.block-ourteam__audio-mute').css("display", "block");
 
     });
 });
